@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.eng{
+    height: 100vh;
+     display: flex;
+   
+}
+.box {
+    width: 70%;
+    color: white;
+    background-color: rgb(168, 109, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box h1{
+font-size: 100px;
+font-weight: 300;
+margin-top: 35px;
+font-family: 'Orbitron', sans-serif;
+}
+.box h2{
+    font-size: 55px;
+}
+.box h3{
+    font-size: 30px;
+}
+.box2{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+            
+}
+.box2 img {
+    height: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+   
+}
+.box2 h1{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+input{
+    width: 320px;
+    height: 30px;
+    border: none;
+    margin: 35px;
+    border-bottom: 1px solid gray;
+}
+.b1{
+    width: 350px;
+    height: 40px;
+    background: #3399cc;
+    border: none;
+    margin-bottom: 20px;
+}
+.link {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.link a {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.b2{
+    width: 350px;
+    height: 40px;
+    background-color: transparent;
+    color: #3366cc;
+    border: 1px solid #3366cc;
+    margin-bottom: 20px;
+}
+.p{
+margin-bottom: 20px;
+}
+.b3{
+    width: 320px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
